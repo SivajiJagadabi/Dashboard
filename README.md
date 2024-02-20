@@ -1,70 +1,34 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Page Link: https://adaptnxtdashboard.netlify.app/
 
-## Available Scripts
+#A responsive dashboard with a dynamic side navigation menu, showcasing order statuses, and a detailed table presenting order-related information. It includes interactive features such as a collapsible menu, pagination, and distinct status categories for efficient order management. The dashboard also incorporates Material-UI components and icons for a visually appealing and user-friendly interface.
 
-In the project directory, you can run:
+#Navigation Bar:
+The navigation bar is located at the top and includes a menu button, the title "Overview Dashboard," and a set of icons for various actions like changing themes, notifications, language, and user avatar.
 
-### `npm start`
+#Side Drawer:
+The side drawer opened and closed by the menu button, contains a list of dashboard sections such as Dashboard, Inventory, Orders, Shipping, and Channel. Each section is represented by an icon and text.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#Status Categories:
+Below the side drawer, there's a list of status categories (Pending, Accepted, AWB Created, etc.) displayed horizontally. These seem to represent the different stages/orders statuses.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#Table:
+A table displays order-related data with columns like Channel, Order No, Order Date, City, Customer Name, Order Value, Status, and Operation.
+Each row represents an order with icons, order details, and action buttons.
 
-### `npm test`
+#Pagination:
+At the bottom of the page, there's a pagination component with buttons for navigating through different pages.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#Styling:
+The styling includes specific colors for the app bar and various components, as well as a mix of Material-UI and custom styles.
 
-### `npm run build`
+#Functionality:
+The component uses React state to manage the open/closed state of the side drawer and the current page in the pagination.
+Icons from Material-UI and other libraries are used for visual elements.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#External Dependencies:
+The code includes several imports from Material-UI and other React icon libraries.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#Responsive Design:
+The dashboard layout seems to be responsive, adjusting the display based on the size of the screen
